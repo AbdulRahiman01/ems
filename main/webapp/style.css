@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.container {
+	width: 30%;
+	min-height: 75vh;
+	margin: 100px auto;
+	border: solid 1px black;
+}
+
+.container h1 {
+	text-align: center;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 70px;
+}
+
+.user, .password, button {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	width: 55vh;
+	margin: 15px auto;
+	padding: 5px;
+	border-radius: 10px;
+	border: solid 1px;
+}
+
+.user input, .password input {
+	flex: 1;
+	outline: none;
+	font-size: 17px;
+	padding: 5px 10px;
+	border: none;
+}
+
+button {
+	align-items: center;
+	width: 57vh;
+	margin-top: 40px;
+	background-color: rgba(0, 94, 255, 0.815);
+	color: #fff;
+	font-size: large;
+	border: none;
+}
